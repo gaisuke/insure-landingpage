@@ -1,0 +1,34 @@
+$colors: (
+	'violet'					: #2D2640,
+	'greyblue'					: #95A9C6,
+	'darkviolet'				: #2B272F,
+	'darkgreyviolet'			: #837D87,
+	'grey'						: #FAFAFA
+	);
+
+$images-size:(
+	'xs' : 10px,
+	'sm' : 20px,
+	'sm-5' : 25px,
+	'md' : 30px,
+	'md-5' : 35px,
+	'lg' : 40px,
+	'xl' : 50px,
+	'xl-6' : 60px,
+	'xl-7' : 70px,
+	'xxl' : 80px,
+	);
+
+// Default Font Size
+$base-font-size : 16px;
+
+// Responsive Breakpoint
+$br-xxs	: 375px;
+$br-xx	: 425px;
+$br-xs	: 480px;
+$br-mm	: 512px;
+$br-sm	: 576px;
+$br-md	: 768px;
+$br-lg	: 992px;
+$br-xl	: 1140px;
+$br-xxl	: 1200px;
