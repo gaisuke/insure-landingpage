@@ -61,7 +61,7 @@ nav .navbar {
     top: 520px;
 }
 
-#home h1 {
+.headings {
     font-family: var(--font-headings);
     font-size: 72px;
     line-height: 95.7%;
@@ -71,7 +71,7 @@ nav .navbar {
     width: 150px;
 }
 
-#home p {
+.body-paragraph {
     font-family: var(--font-body);
     font-weight: normal;
 }
@@ -89,6 +89,68 @@ nav .navbar {
 }
 
 #home .btn-outline-dark:hover {
+    border: 2px solid white;
+    color: var(--very-dark-violet);
+
+}
+
+#about {
+    margin-top: 300px;
+}
+
+#about span {
+    width: 150px;
+    border-bottom: 1px solid var(--grayish-blue);
+}
+#about h1 {
+    font-family: var(--font-headings);
+}
+#about>div>div {
+    margin-bottom: 90px;
+}
+
+.feature-wrapper {
+    margin-right: 20px;
+}
+.feature-wrapper h2 {
+    font-family: var(--font-headings);
+    margin-bottom: 30px;
+}
+.feature-wrapper p {
+    font-family: var(--font-body);
+    color: var(--dark-grayish-violet);
+}
+.feature-wrapper img {
+    margin-bottom: 40px;
+}
+
+#banner {
+    background-color: var(--dark-violet);
+    height: 250px;
+    padding: 0 80px;
+    background-image: url("img/bg-pattern-how-we-work-desktop.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#banner h1 {
+    font-family: var(--font-headings);
+    color: var(--very-light-gray);
+    font-size: 3.1rem;
+}
+
+#banner .btn-outline-dark {
+    font-weight: 700;
+    border: 2px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+    border-radius: 0;
+    font-family: var(--font-body);
+    font-size: 16px;
+    padding: 8px 28px;
+    height: 44px;
+}
+
+#banner .btn-outline-dark:hover {
     border: 2px solid white;
     color: var(--very-dark-violet);
 
