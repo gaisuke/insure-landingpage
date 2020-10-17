@@ -11,3 +11,85 @@
     --font-headings         : 'DM Serif Display', serif;
     --font-body             : 'Karla', sans-serif;
 }
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+    height: 80px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    z-index: 99;
+    position: relative;
+}
+
+nav .btn-outline-dark {
+    font-weight: 700;
+    border: 2px solid var(--very-dark-violet);
+    border-radius: 0;
+    padding: 8px 28px;
+}
+nav .navbar {
+    padding: 0;
+    
+}
+
+#home {
+    height: 600px;
+    background-color: var(--dark-violet);
+    color: var(--very-light-gray);
+    z-index: 0;
+    /* background-image: url("img/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right; */
+}
+
+#home #pattern-right {
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+
+#home #pattern-left {
+    left: 0;
+    top: 520px;
+}
+
+#home h1 {
+    font-family: var(--font-headings);
+    font-size: 72px;
+    line-height: 95.7%;
+}
+
+#home span {
+    width: 150px;
+}
+
+#home p {
+    font-family: var(--font-body);
+    font-weight: normal;
+}
+
+#home .btn-outline-dark {
+    font-weight: 700;
+    border: 2px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+    border-radius: 0;
+    font-family: var(--font-body);
+    font-size: 16px;
+    padding: 8px 28px;
+    width: 146.81px;
+    height: 44px;
+}
+
+#home .btn-outline-dark:hover {
+    border: 2px solid white;
+    color: var(--very-dark-violet);
+
+}
