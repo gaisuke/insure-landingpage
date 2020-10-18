@@ -1,6 +1,8 @@
 /* Untuk Tablet */
 @media (max-width: 1000px) {
-
+    footer .nav-link {
+        padding: 0;
+    }
 }
 
 /* Untuk Smartphone */

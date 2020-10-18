@@ -35,9 +35,8 @@ nav .btn-outline-dark {
     border-radius: 0;
     padding: 8px 28px;
 }
-nav .navbar {
+.navbar {
     padding: 0;
-    
 }
 
 #home {
@@ -100,7 +99,7 @@ nav .navbar {
 
 #about span {
     width: 150px;
-    border-bottom: 1px solid var(--grayish-blue);
+    border-bottom: 1px solid var(--dark-grayish-violet);
 }
 #about h1 {
     font-family: var(--font-headings);
@@ -122,6 +121,11 @@ nav .navbar {
 }
 .feature-wrapper img {
     margin-bottom: 40px;
+}
+
+#banner-wrapper {
+    margin-top: 160px;
+    margin-bottom: 150px;
 }
 
 #banner {
@@ -154,4 +158,43 @@ nav .navbar {
     border: 2px solid white;
     color: var(--very-dark-violet);
 
+}
+
+footer {
+    height: 390px;
+    background-color: var(--very-light-gray);
+}
+
+footer .container {
+    padding: 60px 12px;
+}
+
+footer .navbar {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
+}
+footer .nav-item {
+    margin-right: 15px;
+}
+footer .nav-item:nth-last-child(1) {
+    margin-right: 0;
+}
+footer .nav-link {
+    padding: 0;
+}
+.footer-menu {
+    text-transform: uppercase;
+    font-family: var(--font-body);
+    font-weight: 700;
+    margin-right: 175px;
+}
+
+.footer-menu p {
+    color: var(--dark-violet);
+}
+
+.footer-menu p:nth-child(1) {
+    margin-bottom: 35px;
+    color: var(--dark-grayish-violet);
 }
