@@ -163,6 +163,8 @@ nav .btn-outline-dark {
 footer {
     height: 390px;
     background-color: var(--very-light-gray);
+    background-image: url("img/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
 }
 
 footer .container {
