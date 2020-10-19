@@ -38,6 +38,9 @@ nav .btn-outline-dark {
 .navbar {
     padding: 0;
 }
+footer .navbar-nav {
+    flex-direction: row;
+}
 
 
 #home {
