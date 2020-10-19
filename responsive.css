@@ -66,6 +66,14 @@
 /* Untuk Smartphone */
 @media (max-width: 670px) {
 
+    .navbar-toggler {
+        border: 0;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("img/icon-hamburger.svg");
+    }
+
+
     #home {
         background-color: #fff;
     }
