@@ -93,8 +93,9 @@ footer .navbar-nav {
     font-family: var(--font-body);
     font-size: 16px;
     padding: 8px 28px;
-    width: 146.81px;
-    height: 44px;
+    align-self: flex-start;
+    /* width: 146.81px; */
+    /* height: 44px; */
 }
 
 #home .btn-outline-dark:hover {
