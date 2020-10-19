@@ -51,13 +51,19 @@ nav .btn-outline-dark {
 
 #home #pattern-right {
     right: 0;
-    top: 0;
+    top: 80px;
     z-index: 4;
 }
 
 #home #pattern-left {
     left: 0;
     top: 520px;
+}
+#pattern-right img:nth-child(2){
+    display: none;
+}
+#pattern-left img:nth-child(2) {
+    display: none;
 }
 
 .headings {
