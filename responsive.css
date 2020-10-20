@@ -72,6 +72,13 @@
     .navbar-light .navbar-toggler-icon {
         background-image: url("img/icon-hamburger.svg");
     }
+    .navbar-collapse {
+        width: 100%;
+        height: 100vh;
+        background-color: var(--very-dark-violet);
+        position: absolute;
+        top: 60px;
+    }
 
 
     #home {
@@ -104,9 +111,10 @@
     #hero-img {
         width: 100% !important;
         position: relative !important;
-        z-index: 100;
     }
-
+    #hero-xs .btn {
+        align-self: center;
+    }
 
     #pattern-right img:nth-child(1){
         display: none;
