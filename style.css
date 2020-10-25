@@ -43,6 +43,11 @@ footer .navbar-nav {
 }
 
 
+#navbarSupportedContent {
+    padding-top: 0 !important;
+}
+
+
 #home {
     height: 600px;
     background-color: var(--dark-violet);
